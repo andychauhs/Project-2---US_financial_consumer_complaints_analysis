@@ -62,6 +62,7 @@ The dataset for this analysis is sourced from Kaggle: US Consumer Finance Compla
 
 ## Project Files
 - **README.md**: This document.
+- **project_US_fin_consumer_complaints.sql**: SQL script
 
 ## Getting Started
 1. Clone this repository to your local machine.
