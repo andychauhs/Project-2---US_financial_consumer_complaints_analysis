@@ -37,7 +37,7 @@ This project involves a comprehensive analysis of consumer finance complaints da
    - **Details**: Implement a scheduled event to generate and store monthly complaint reports for ongoing monitoring of company performance.
 
 ## Data Sources
-The dataset for this analysis is sourced from Kaggle: US Consumer Finance Complaints. Each dataset contains the following columns:
+The dataset for this analysis is sourced from Kaggle: US Consumer Finance Complaints https://www.kaggle.com/datasets/kaggle/us-consumer-finance-complaints. Each dataset contains the following columns:
 - Date received
 - Product
 - Sub-product
@@ -52,7 +52,7 @@ The dataset for this analysis is sourced from Kaggle: US Consumer Finance Compla
 - Consumer consent provided
 - Submitted via
 - Date sent to company
-- Company repsonse to consumer
+- Company response to consumer
 - Timely response
 - Consumer disputed
 - Complaint id
