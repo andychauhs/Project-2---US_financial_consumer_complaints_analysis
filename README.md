@@ -40,7 +40,7 @@ SQL Dialect: MYSQL
    - **Details**: Implement a scheduled event to generate and store monthly complaint reports for ongoing monitoring of company performance.
 
 ## Data Sources
-The dataset for this analysis is sourced from Kaggle: US Consumer Finance Complaints https://www.kaggle.com/datasets/kaggle/us-consumer-finance-complaints. Each dataset contains the following columns:
+The dataset for this analysis is sourced from Kaggle: US Consumer Finance Complaints https://www.kaggle.com/datasets/kaggle/us-consumer-finance-complaints. The dataset contains the following columns:
 - Date received
 - Product
 - Sub-product
@@ -62,7 +62,7 @@ The dataset for this analysis is sourced from Kaggle: US Consumer Finance Compla
 
 ## Project Files
 - **README.md**: This document.
-- **project_US_fin_consumer_complaints.sql**: SQL script
+- **project_US_fin_consumer_complaints.sql**: SQL script for analysis
 
 ## Getting Started
 1. Clone this repository to your local machine.
