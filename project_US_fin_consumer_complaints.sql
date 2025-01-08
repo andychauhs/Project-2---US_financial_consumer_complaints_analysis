@@ -113,14 +113,14 @@ GROUP BY company;
 
 #companies's top product being complained
 WITH counts AS(
-SELECT DISTINCT company, 
-	product,
-	COUNT(*) OVER (PARTITION BY company, product) as counts
-FROM clean_table
+	SELECT DISTINCT company, 
+		product,
+		COUNT(*) OVER (PARTITION BY company, product) as counts
+	FROM clean_table
 ), rnk AS(
-SELECT *,
-	RANK() OVER(PARTITION BY company ORDER BY counts DESC) AS rnk
-FROM counts
+	SELECT *,
+		RANK() OVER(PARTITION BY company ORDER BY counts DESC) AS rnk
+	FROM counts
 )
 SELECT company, product, counts 
 FROM rnk 
@@ -130,7 +130,7 @@ ORDER BY counts DESC;
 #timely response rate of companies
 SELECT company, 
 	SUM(CASE WHEN timely_response LIKE '%Yes%' THEN 1 ELSE 0 END)/ COUNT(*) AS timely_response_rate ,
-    COUNT(*) AS number_of_complains
+	COUNT(*) AS number_of_complains
 FROM clean_table
 GROUP BY company 
 ORDER BY number_of_complains DESC, timely_response_rate DESC;
@@ -138,7 +138,7 @@ ORDER BY number_of_complains DESC, timely_response_rate DESC;
 #public response rate of companies 
 SELECT company, 
 	SUM(CASE WHEN company_public_response not LIKE '%chooses not to %' THEN 1 ELSE 0 END)/ COUNT(*) AS public_response_rate ,
-    COUNT(*) AS number_of_complains
+	COUNT(*) AS number_of_complains
 FROM clean_table
 GROUP BY company 
 ORDER BY number_of_complains DESC, public_response_rate DESC;
@@ -205,9 +205,9 @@ ORDER BY counts DESC
 #1. state 
 SELECT state,
 	AVG(DATEDIFF(date_sent_to_company, date_received)) AS avg_delivery_time, 
-    MAX(DATEDIFF(date_sent_to_company, date_received)) AS max_delivery_time, 
-    MIN(DATEDIFF(date_sent_to_company, date_received)) AS min_delivery_time,
-    COUNT(*) AS complaints_counts
+   	MAX(DATEDIFF(date_sent_to_company, date_received)) AS max_delivery_time, 
+    	MIN(DATEDIFF(date_sent_to_company, date_received)) AS min_delivery_time,
+    	COUNT(*) AS complaints_counts
 FROM clean_table
 GROUP BY state
 ORDER BY avg_delivery_time;
@@ -215,9 +215,9 @@ ORDER BY avg_delivery_time;
 #2. company 
 SELECT company,
 	AVG(DATEDIFF(date_sent_to_company, date_received)) AS avg_delivery_time, 
-    MAX(DATEDIFF(date_sent_to_company, date_received)) AS max_delivery_time, 
-    MIN(DATEDIFF(date_sent_to_company, date_received)) AS min_delivery_time,
-    COUNT(*) AS complaints_counts
+    	MAX(DATEDIFF(date_sent_to_company, date_received)) AS max_delivery_time, 
+    	MIN(DATEDIFF(date_sent_to_company, date_received)) AS min_delivery_time,
+    	COUNT(*) AS complaints_counts
 FROM clean_table
 GROUP BY company
 ORDER BY complaints_counts DESC;
@@ -227,14 +227,14 @@ WITH monthly_performance AS(
 	SELECT 
 		DATE_FORMAT(date_received, '%Y-%m') as delivery_month,
 		AVG(DATEDIFF(date_sent_to_company, date_received)) AS avg_delivery_time,
-        COUNT(*) AS number_of_complaints
+        	COUNT(*) AS number_of_complaints
 	FROM clean_table
 	GROUP BY delivery_month
 ), last_month AS(
 	SELECT delivery_month,
 		avg_delivery_time,
 		LAG(avg_delivery_time) OVER() AS last_month_avg_delivery_time,
-        number_of_complaints,
+       		number_of_complaints,
         LAG(number_of_complaints) OVER() AS last_month_number_of_complaints
 	FROM monthly_performance
 )
