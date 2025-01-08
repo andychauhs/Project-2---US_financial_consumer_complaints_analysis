@@ -10,7 +10,7 @@ This project involves a comprehensive analysis of consumer finance complaints da
 
 1. **Data Cleansing**
    - **Task**: Cleanse and preprocess the dataset to ensure data accuracy and consistency.
-   - **Details**: Handle missing values in key columns, such as state and consumer consent, and create new columns for improved data integrity.
+   - **Details**: Handle missing values in key columns, such as state and consumer consent, and create new columns for improved data integrity. This includes creating a new column (`state_new`) that matches states with known zipcodes where the original state is null. Additionally, address other inconsistencies and outliers in the data to prepare it for analysis.
 
 2. **Consumer Complaints Analysis**
    - **Task**: Analyze the volume of complaints by product type.
