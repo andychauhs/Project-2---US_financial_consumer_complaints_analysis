@@ -6,6 +6,9 @@
 ## Overview
 This project involves a comprehensive analysis of consumer finance complaints data, aimed at extracting actionable insights to enhance understanding of customer issues and company performance. The dataset provides critical information on complaints, including product type, company response, consumer consent, and geographical distribution.
 
+## Technical Environment
+SQL Dialect: MYSQL 
+
 ## Analysis Tasks
 
 1. **Data Cleansing**
