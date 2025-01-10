@@ -129,14 +129,15 @@ Some companies have delivery times extending up to 683 days, highlighting signif
 - **insight:** Companies with higher complaint volumes prioritize timely responses but often avoid public acknowledgment of these complaints, likely due to concerns over PR risks. This approach may hinder transparency and customer trust.
 
 9.  **Monthly performance:**
-   9.1 **Average Delivery Time Fluctuations:**
+
+**Average Delivery Time Fluctuations:**
 The average delivery time shows significant fluctuations across the months. For example, the average delivery time increased dramatically from 7.56 days in December 2011 to 15.66 days in January 2012, indicating a potential backlog or inefficiency in processing complaints.
 The delivery time decreased again in February but saw a notable rise in March, suggesting possible operational challenges or changes in the volume of complaints.
 
-   9.2 **Number of Complaints:**
+**Number of Complaints:**
 The number of complaints also displays considerable variability. There was a sharp increase in complaints from December 2011 (2,532 complaints) to January 2012 (3,240 complaints), which corresponds to the increased delivery time during the same period.
 
-   9.3 **Performance Change Metrics:**
+**Performance Change Metrics:**
 The performance change on delivery time shows both positive and negative percentages. For instance, in January 2012, there was a dramatic drop of -107.20%, indicating a significant increase in delivery time compared to December. Conversely, in February 2012, the performance change was positive at 24.82%, suggesting an improvement in delivery efficiency.
 The performance change on the number of complaints also varies. For example, in March 2012, there was a 77.28% increase in complaints compared to February, indicating a surge in issues that required resolution.
 
