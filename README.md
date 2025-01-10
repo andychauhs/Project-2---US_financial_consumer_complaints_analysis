@@ -71,8 +71,68 @@ The dataset for this analysis is sourced from Kaggle: US Consumer Finance Compla
 ## Usage
 You can replicate the analysis by executing the provided SQL queries against the included datasets or your own datasets with similar structures.
 
+
+
+##Key Findings
+- **Complaint Volume and Trends:**
+The top five products with the highest complaint volumes are:
+Mortgage: 185,219 complaints
+Debt Collection: 100,426 complaints
+Credit Report: 91,447 complaints
+Credit Card: 65,883 complaints
+Bank Account or Service: 61,369 complaints
+Consumer Loan: 20,853 complaints
+
+- **Common Issues by Product:**
+1. Mortgage-related complaints often stem from loan modifications, collections, and foreclosures.
+2. Credit reporting issues predominantly relate to incorrect information on credit reports, typically concerning account status or disputed information.
+3. Bank account complaints are mostly associated with account management and transaction issues.
+   
+- **Consumer Dispute Rate:**
+1. The consumer dispute rate stands at 0.2, indicating a significant number of disputes in relation to the total complaints.
+2. A correlation exists where more timely responses lead to an increase in disputes, suggesting that even the immediate response can alleviate customers emotions, customers may be more focused on resolving specific cases.
+   
+- **Consent Preferences:**
+Most customers (480,546) chose not to provide consent for communication, while 66,618 consented, indicating a potential area for enhancing customer engagement.
+
+- **Submission Channel Preferences:**
+Complaints submitted via different channels show varying satisfaction levels:
+Web: 360,173 complaints with a satisfaction rate of 0.78
+Referral: 107,809 complaints with a satisfaction rate of 0.83
+Phone: 39,009 complaints with a satisfaction rate of 0.83
+Postal Mail: 36,290 complaints with a satisfaction rate of 0.85
+Email: 297 complaints with a satisfaction rate of 0.79
+!! Postal mail shows the highest satisfaction rate, suggesting a preference for written communication.
+
+- **Geographical Insights:**
+The top states for complaints are:
+California: 81,700 complaints
+Florida: 53,671 complaints
+Texas: 41,352 complaints
+New York: 38,265 complaints
+Georgia: 24,548 complaints
+California shows a relatively lower satisfaction rate compared to other states, indicating a need for focused improvement in customer service.
+
+- **Service Provider Performance:**
+The average delivery time for complaints across states ranges from 1 to 8 days, with top companies averaging 4 to 5 days.
+Some companies have delivery times extending up to 683 days, highlighting significant inefficiencies in handling complaints.
+Timeliness vs. Public Response:
+Companies with higher complaint volumes tend to respond promptly (over 97% timely response rate) but often do not address complaints publicly. This may be due to the personal nature of complaints and a desire to mitigate public relations risks.
+
+
+
+
+
+
+
+
 ## Conclusion
 This project aims to provide in-depth insights into consumer finance complaints, focusing on complaint patterns, company performance, and customer behavior. The findings will assist stakeholders in making informed decisions to enhance customer satisfaction and improve complaint resolution processes.
+
+
+
+
+
 
 For any questions or further information, feel free to reach out.
 
