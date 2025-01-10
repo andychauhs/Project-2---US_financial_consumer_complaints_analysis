@@ -76,25 +76,20 @@ You can replicate the analysis by executing the provided SQL queries against the
 ## Key Findings
 1.  **Complaint Volume and Trends:**
 The top five products with the highest complaint volumes are:
-Mortgage: 185,219 complaints
-Debt Collection: 100,426 complaints
-Credit Report: 91,447 complaints
-Credit Card: 65,883 complaints
-Bank Account or Service: 61,369 complaints
-Consumer Loan: 20,853 complaints
+Mortgage: 185,219 complaints.
+Debt Collection: 100,426 complaints.
+Credit Report: 91,447 complaints.
+Credit Card: 65,883 complaints.
+Bank Account or Service: 61,369 complaints.
+Consumer Loan: 20,853 complaints.
 
-**insight:** Mortgage products represent the largest share of complaints, indicating potential systemic issues in loan management, modification processes, and customer service. This calls for targeted interventions to streamline operations and improve customer satisfaction.
+- insight:** Mortgage products represent the largest share of complaints, indicating potential systemic issues in loan management, modification processes, and customer service. This calls for targeted interventions to streamline operations and improve customer satisfaction.
   
-2.  **Common Issues by Product:**
-Mortgage-related complaints often stem from loan modifications, collections, and foreclosures.
-Credit reporting issues predominantly relate to incorrect information on credit reports, typically concerning account status or disputed information.
-Bank account complaints are mostly associated with account management and transaction issues.
+2.  **Common Issues by Product:** Mortgage-related complaints often stem from loan modifications, collections, and foreclosures. Credit reporting issues predominantly relate to incorrect information on credit reports, typically concerning account status or disputed information. Bank account complaints are mostly associated with account management and transaction issues.
 
 **insight:** Common complaints across products, especially regarding loan modifications and incorrect information on credit reports, highlight the need for better data accuracy and clearer communication with customers throughout their experience.
    
-3.  **Consumer Dispute Rate:**
-The consumer dispute rate stands at 0.2, indicating a significant number of disputes in relation to the total complaints.
-A correlation exists where more timely responses lead to an increase in disputes, suggesting that even the immediate response can alleviate customers emotions, customers may be more focused on resolving specific cases.
+3.  **Consumer Dispute Rate:** The consumer dispute rate stands at 0.2, indicating a significant number of disputes in relation to the total complaints. A correlation exists where more timely responses lead to an increase in disputes, suggesting that even the immediate response can alleviate customers emotions, customers may be more focused on resolving specific cases.
 
 **insight:** The correlation between timely responses and increased disputes suggests that while quick resolutions are appreciated, they may also lead to more customers initiating disputes, possibly due to unmet expectations or unresolved issues. Understanding customer motivations for disputes is crucial.
    
@@ -103,7 +98,7 @@ Most customers (480,546) chose not to provide consent for communication, while 6
 
 **insight:** A significant number of customers opted not to provide consent for communication, indicating a potential barrier to engagement. Companies should explore strategies to build trust and encourage customers to opt-in for updates and communication.
 
-5.  **Submission Channel Preferences:**
+6.  **Submission Channel Preferences:**
 Complaints submitted via different channels show varying satisfaction levels:
 Web: 360,173 complaints with a satisfaction rate of 0.78
 Referral: 107,809 complaints with a satisfaction rate of 0.83
