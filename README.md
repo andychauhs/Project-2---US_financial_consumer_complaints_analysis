@@ -83,53 +83,50 @@ Credit Card: 65,883 complaints.
 Bank Account or Service: 61,369 complaints.
 Consumer Loan: 20,853 complaints.
 
-- insight:** Mortgage products represent the largest share of complaints, indicating potential systemic issues in loan management, modification processes, and customer service. This calls for targeted interventions to streamline operations and improve customer satisfaction.
+- **insight:** Mortgage products represent the largest share of complaints, indicating potential systemic issues in loan management, modification processes, and customer service. This calls for targeted interventions to streamline operations and improve customer satisfaction.
   
 2.  **Common Issues by Product:** Mortgage-related complaints often stem from loan modifications, collections, and foreclosures. Credit reporting issues predominantly relate to incorrect information on credit reports, typically concerning account status or disputed information. Bank account complaints are mostly associated with account management and transaction issues.
 
-**insight:** Common complaints across products, especially regarding loan modifications and incorrect information on credit reports, highlight the need for better data accuracy and clearer communication with customers throughout their experience.
+- **insight:** Common complaints across products, especially regarding loan modifications and incorrect information on credit reports, highlight the need for better data accuracy and clearer communication with customers throughout their experience.
    
 3.  **Consumer Dispute Rate:** The consumer dispute rate stands at 0.2, indicating a significant number of disputes in relation to the total complaints. A correlation exists where more timely responses lead to an increase in disputes, suggesting that even the immediate response can alleviate customers emotions, customers may be more focused on resolving specific cases.
 
-**insight:** The correlation between timely responses and increased disputes suggests that while quick resolutions are appreciated, they may also lead to more customers initiating disputes, possibly due to unmet expectations or unresolved issues. Understanding customer motivations for disputes is crucial.
+- **insight:** The correlation between timely responses and increased disputes suggests that while quick resolutions are appreciated, they may also lead to more customers initiating disputes, possibly due to unmet expectations or unresolved issues. Understanding customer motivations for disputes is crucial.
    
-4.  **Consent Preferences:**
-Most customers (480,546) chose not to provide consent for communication, while 66,618 consented, indicating a potential area for enhancing customer engagement.
+4.  **Consent Preferences:** Most customers (480,546) chose not to provide consent for communication, while 66,618 consented, indicating a potential area for enhancing customer engagement.
 
-**insight:** A significant number of customers opted not to provide consent for communication, indicating a potential barrier to engagement. Companies should explore strategies to build trust and encourage customers to opt-in for updates and communication.
+- **insight:** A significant number of customers opted not to provide consent for communication, indicating a potential barrier to engagement. Companies should explore strategies to build trust and encourage customers to opt-in for updates and communication.
 
 6.  **Submission Channel Preferences:**
 Complaints submitted via different channels show varying satisfaction levels:
-Web: 360,173 complaints with a satisfaction rate of 0.78
-Referral: 107,809 complaints with a satisfaction rate of 0.83
-Phone: 39,009 complaints with a satisfaction rate of 0.83
-Postal Mail: 36,290 complaints with a satisfaction rate of 0.85
-Email: 297 complaints with a satisfaction rate of 0.79
+Web: 360,173 complaints with a satisfaction rate of 0.78.
+Referral: 107,809 complaints with a satisfaction rate of 0.83.
+Phone: 39,009 complaints with a satisfaction rate of 0.83.
+Postal Mail: 36,290 complaints with a satisfaction rate of 0.85.
+Email: 297 complaints with a satisfaction rate of 0.79.
 Web is the most popular channel for customer raising their complaints but it shows the lowest satisfaction rate, this may due to the auto_reply functions and delay in case handling due to the large volume. Bank should review the case handling quality and efficiency sent from website.
 
-**insight:** The varying satisfaction rates across complaint submission channels indicate that certain channels (like postal mail) are more effective in meeting customer needs. Companies should analyze these differences and enhance the performance of lower-rated channels, such as web and phone.
+- **insight:** The varying satisfaction rates across complaint submission channels indicate that certain channels (like postal mail) are more effective in meeting customer needs. Companies should analyze these differences and enhance the performance of lower-rated channels, such as web and phone.
 
 6.  **Geographical Insights:**
 The top five states for complaints are:
-California: 81,700 complaints
-Florida: 53,671 complaints
-Texas: 41,352 complaints
-New York: 38,265 complaints
-Georgia: 24,548 complaints
+California: 81,700 complaints.
+Florida: 53,671 complaints.
+Texas: 41,352 complaints.
+New York: 38,265 complaints.
+Georgia: 24,548 complaints.
 The most being complainted product(s) in the the above states accounted about 25-40% of the total complaints within the state. Mortgage is still the most complainted products in 4 of the above states, whereas TX citizens complainted mroe on credit reporting.
 
-**insight:** The concentration of complaints in states like California and the associated lower satisfaction rates suggest that regional factors may influence customer experiences. Tailoring approaches to these specific markets could yield better outcomes.
+- **insight:** The concentration of complaints in states like California and the associated lower satisfaction rates suggest that regional factors may influence customer experiences. Tailoring approaches to these specific markets could yield better outcomes.
   
-7.  **Service Provider Performance:**
-The average delivery time for complaints across states ranges from 1 to 8 days, with top companies averaging 4 to 5 days.
+7.  **Service Provider Performance:**The average delivery time for complaints across states ranges from 1 to 8 days, with top companies averaging 4 to 5 days.
 Some companies have delivery times extending up to 683 days, highlighting significant inefficiencies in handling complaints.
 
-**insight:** The wide range of average delivery times, with some complaints taking up to 683 days to resolve, indicates significant operational inefficiencies that need to be addressed to improve overall service delivery.
+- **insight:** The wide range of average delivery times, with some complaints taking up to 683 days to resolve, indicates significant operational inefficiencies that need to be addressed to improve overall service delivery.
 
-8.  **Timeliness vs. Public Response:**
-Companies with higher complaint volumes tend to respond promptly (over 97% timely response rate) but often do not address complaints publicly. This may be due to the personal nature of complaints and a desire to mitigate public relations risks.
+8.  **Timeliness vs. Public Response:** Companies with higher complaint volumes tend to respond promptly (over 97% timely response rate) but often do not address complaints publicly. This may be due to the personal nature of complaints and a desire to mitigate public relations risks.
 
-**insight:** Companies with higher complaint volumes prioritize timely responses but often avoid public acknowledgment of these complaints, likely due to concerns over PR risks. This approach may hinder transparency and customer trust.
+- **insight:** Companies with higher complaint volumes prioritize timely responses but often avoid public acknowledgment of these complaints, likely due to concerns over PR risks. This approach may hinder transparency and customer trust.
 
 9.  **Monthly performance:**
 - Average Delivery Time Fluctuations:
