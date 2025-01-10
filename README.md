@@ -145,9 +145,9 @@ The performance change on the number of complaints also varies. For example, in 
 
 - **insight:**
      - **Seasonality and Trends:** The data reveals a pattern where months following a peak in complaints often show a drop in performance metrics. For instance, after reaching a high number of complaints in March 2012, April saw a decrease in both average delivery time and the number of complaints.
-      - **Operational Challenges:** The fluctuation in average delivery time, alongside rising complaint numbers, suggests potential operational challenges, especially during peak complaint months. The company may need to investigate the causes of these spikes and implement strategies for better resource allocation during high-demand periods.
+     - **Operational Challenges:** The fluctuation in average delivery time, alongside rising complaint numbers, suggests potential operational challenges, especially during peak complaint months. The company may need to investigate the causes of these spikes and implement strategies for better resource allocation during high-demand periods.
      - **Customer Experience Impact:** The relationship between average delivery time and the number of complaints indicates a direct impact on customer experience. Longer delivery times correlate with increased complaints, which can affect customer satisfaction and retention.
-      - **Potential for Improvement:** The data suggests opportunities for improvement in complaint handling. For example, months showing significant increases in delivery time could be investigated for process bottlenecks or staffing issues.
+     - **Potential for Improvement:** The data suggests opportunities for improvement in complaint handling. For example, months showing significant increases in delivery time could be investigated for process bottlenecks or staffing issues.
 
 
 
